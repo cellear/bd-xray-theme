@@ -1,0 +1,18 @@
+name = Backdrop Outlined
+description = A minimal Backdrop theme with visual outlines showing theme structure - regions and blocks clearly labeled
+backdrop = 1.x
+type = theme
+version = 1.x-1.0.0
+
+; Stylesheets
+stylesheets[all][] = css/style.css
+
+; Regions
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer] = Footer
