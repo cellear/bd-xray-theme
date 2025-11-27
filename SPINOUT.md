@@ -1,6 +1,6 @@
 # Spinning Out This Theme into a Separate Repository
 
-This document outlines the steps to create a standalone repository for the Backdrop Outlined theme.
+This document outlines the steps to create a standalone repository for the BD X-Ray theme.
 
 ## Steps to Create Separate Repo
 
@@ -13,7 +13,7 @@ This document outlines the steps to create a standalone repository for the Backd
 ### 2. Initialize Git in Theme Directory
 
 ```bash
-cd /path/to/backdrop/themes/backdrop_outlined
+cd /path/to/backdrop/themes/xray
 git init
 ```
 
@@ -26,7 +26,7 @@ git add .
 ### 4. Make Initial Commit
 
 ```bash
-git commit -m "Initial commit: Backdrop Outlined theme
+git commit -m "Initial commit: BD X-Ray theme
 
 - Visual outline theme for Backdrop CMS
 - Shows regions, blocks, and nodes with colored borders
@@ -52,7 +52,7 @@ After creating the repo, update the README.md:
 ## Files Included
 
 The repository should include:
-- ✅ `backdrop_outlined.info` - Theme definition
+- ✅ `xray.info` - Theme definition
 - ✅ `template.php` - Theme functions
 - ✅ `css/style.css` - Styling
 - ✅ `templates/` - All template files

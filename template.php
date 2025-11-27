@@ -1,21 +1,21 @@
 <?php
 /**
  * @file
- * Theme functions for Backdrop Outlined theme.
+ * Theme functions for BD X-Ray theme.
  */
 
 /**
  * Preprocess variables for page.tpl.php
  */
-function backdrop_outlined_preprocess_page(&$variables) {
+function xray_preprocess_page(&$variables) {
   // Add body classes
-  $variables['classes'][] = 'backdrop-outlined';
+  $variables['classes'][] = 'xray';
 }
 
 /**
  * Preprocess variables for block.tpl.php
  */
-function backdrop_outlined_preprocess_block(&$variables) {
+function xray_preprocess_block(&$variables) {
   // Blocks in Backdrop already have their subject in $variables['block']->subject
   // No additional preprocessing needed for this theme
 }
@@ -23,6 +23,6 @@ function backdrop_outlined_preprocess_block(&$variables) {
 /**
  * Preprocess variables for node.tpl.php
  */
-function backdrop_outlined_preprocess_node(&$variables) {
+function xray_preprocess_node(&$variables) {
   // Additional node preprocessing if needed
 }

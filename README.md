@@ -12,7 +12,7 @@ The theme was initially created to help debug and understand how Backdrop handle
 
 ## What This Theme Does
 
-Backdrop Outlined uses visual indicators (colored borders and labels) to show:
+BD X-Ray uses visual indicators (colored borders and labels) to show:
 
 ### Regions (Solid Colored Borders)
 - **Header** (red) - Site branding, logo area
@@ -69,12 +69,12 @@ Backdrop Outlined uses visual indicators (colored borders and labels) to show:
 1. **Download or clone** this theme into your Backdrop site's `themes` directory:
    ```bash
    cd /path/to/backdrop/themes
-   git clone https://github.com/cellear/bd-xray-theme.git backdrop_outlined
+   git clone https://github.com/cellear/bd-xray-theme.git xray
    ```
 
 2. **Enable the theme**:
    - Navigate to `admin/appearance` in your Backdrop site
-   - Find "Backdrop Outlined" (or "BD X-Ray") in the theme list
+   - Find "BD X-Ray" in the theme list
    - Click "Enable and set default" (or just "Enable" if you want to keep your current theme)
 
 3. **Add content**:
@@ -90,8 +90,8 @@ Backdrop Outlined uses visual indicators (colored borders and labels) to show:
 ## File Structure
 
 ```
-backdrop_outlined/
-├── backdrop_outlined.info    # Theme definition, regions, and metadata
+xray/
+├── xray.info                 # Theme definition, regions, and metadata
 ├── template.php              # Theme preprocess functions
 ├── css/
 │   └── style.css            # All visual outline styling
