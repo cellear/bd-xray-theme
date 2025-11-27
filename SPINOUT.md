@@ -6,7 +6,7 @@ This document outlines the steps to create a standalone repository for the Backd
 
 ### 1. Create New GitHub Repository
 
-1. Go to GitHub and create a new repository (e.g., `backdrop-outlined`)
+1. Go to GitHub and create a new repository (e.g., `bd-xray-theme`)
 2. **Do NOT** initialize with README, .gitignore, or license (we already have these)
 3. Note the repository URL
 
@@ -37,7 +37,7 @@ git commit -m "Initial commit: Backdrop Outlined theme
 ### 5. Add Remote and Push
 
 ```bash
-git remote add origin https://github.com/yourusername/backdrop-outlined.git
+git remote add origin https://github.com/cellear/bd-xray-theme.git
 git branch -M main
 git push -u origin main
 ```

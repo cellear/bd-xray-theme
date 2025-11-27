@@ -1,6 +1,6 @@
-# Backdrop Outlined Theme
+# BD X-Ray Theme
 
-A minimal Backdrop CMS theme designed to visually demonstrate the structure of Backdrop's theming system through colored borders and labels. This theme makes it easy to understand how regions, blocks, and content nodes are organized and displayed.
+A minimal Backdrop CMS theme designed to visually demonstrate the structure of Backdrop's theming system through colored borders and labels. Like an X-ray for your site, this theme reveals the underlying structure, making it easy to understand how regions, blocks, and content nodes are organized and displayed.
 
 ## Project History
 
@@ -69,12 +69,12 @@ Backdrop Outlined uses visual indicators (colored borders and labels) to show:
 1. **Download or clone** this theme into your Backdrop site's `themes` directory:
    ```bash
    cd /path/to/backdrop/themes
-   git clone https://github.com/yourusername/backdrop-outlined.git
+   git clone https://github.com/cellear/bd-xray-theme.git backdrop_outlined
    ```
 
 2. **Enable the theme**:
    - Navigate to `admin/appearance` in your Backdrop site
-   - Find "Backdrop Outlined" in the theme list
+   - Find "Backdrop Outlined" (or "BD X-Ray") in the theme list
    - Click "Enable and set default" (or just "Enable" if you want to keep your current theme)
 
 3. **Add content**:
